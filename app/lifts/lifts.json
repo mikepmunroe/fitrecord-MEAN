@@ -1,37 +1,43 @@
 [
     {
+        "date": "10/27/2011",
         "name": "Back Squat",
-        "repScheme": "5x",
+        "repScheme": "5",
         "load": "195",
         "notes": ""
     },
     {
+        "date": "11/15/2011",
         "name": "Back Squat",
-        "repScheme": "3x",
+        "repScheme": "3",
         "load": "225",
         "notes": ""
     },
     {
+        "date": "12/13/2011",
         "name": "Back Squat",
-        "repScheme": "1x",
+        "repScheme": "1",
         "load": "255",
         "notes": ""
     },
     {
+        "date": "",
         "name": "Back Squat",
-        "repScheme": "2x",
+        "repScheme": "2",
         "load": "235",
         "notes": ""
     },
     {
+        "date": "",
         "name": "Front Squat",
-        "repScheme": "5x",
+        "repScheme": "5",
         "load": "155",
         "notes": ""
     },
     {
+        "date": "",
         "name": "Front Squat",
-        "repScheme": "5x",
+        "repScheme": "5",
         "load": "215",
         "notes": ""
     }

@@ -1,13 +1,10 @@
 'use strict';
 
 angular.module('fitrecordMeanApp')
-  .controller('LiftCtrl', function ($scope) {
-    $scope.lifts = [
-      {'name': 'Back Squat'},
-      {'name': 'Front Squat'},
-      {'name': 'Clean'},
-      {'name': 'Clean & Jerk'},
-      {'name': 'Deadlift'},
-      {'name': 'Snatch'}
-    ];
+  .controller('LiftCtrl', function ($scope, $http) {
+    $http.get('lifts/lifts.json').success(function(data) {
+    $scope.lifts = data;
   });
+
+  $scope.orderProp = 'load';
+});

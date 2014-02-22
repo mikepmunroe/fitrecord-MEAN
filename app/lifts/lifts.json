@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Back Squat",
+        "repScheme": "5x",
+        "load": "195",
+        "notes": ""
+    },
+    {
+        "name": "Back Squat",
+        "repScheme": "3x",
+        "load": "225",
+        "notes": ""
+    },
+    {
+        "name": "Back Squat",
+        "repScheme": "1x",
+        "load": "255",
+        "notes": ""
+    },
+    {
+        "name": "Back Squat",
+        "repScheme": "2x",
+        "load": "235",
+        "notes": ""
+    },
+    {
+        "name": "Front Squat",
+        "repScheme": "5x",
+        "load": "155",
+        "notes": ""
+    },
+    {
+        "name": "Front Squat",
+        "repScheme": "5x",
+        "load": "215",
+        "notes": ""
+    }
+]

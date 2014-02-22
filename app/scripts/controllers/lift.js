@@ -6,4 +6,6 @@ angular.module('fitrecordMeanApp')
       $http.get('lifts/lifts.json').success(function(data) {
         $scope.lifts = data;
     });
+
+    $scope.orderProp = 'load';
 }]);

@@ -9,8 +9,8 @@ angular.module('fitrecordMeanApp', [
   .config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/main',
-        controller: 'MainCtrl'
+        templateUrl: 'partials/lifts-list.html',
+        controller: 'LiftListCtrl'
       })
       .when('/login', {
         templateUrl: 'partials/login',
@@ -20,8 +20,8 @@ angular.module('fitrecordMeanApp', [
         templateUrl: 'partials/signup',
         controller: 'SignupCtrl'
       })
-      .when('/lifts', {
-        templateUrl: 'partials/lifts',
+      .when('/lift/add', {
+        templateUrl: 'partials/add-lift',
         controller: 'LiftCtrl'
       })
       .when('/settings', {
